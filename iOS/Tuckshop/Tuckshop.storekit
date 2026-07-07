@@ -1,0 +1,40 @@
+{
+  "identifier" : "Tuckshop",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "tuckshop.subgroup",
+      "localizations" : [],
+      "name" : "Tuckshop Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "tuckshop.pro.monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Multiple children with chore-based bonus tracking",
+              "displayName" : "Tuckshop Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "tuckshop.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Tuckshop Pro Monthly",
+          "subscriptionGroupID" : "tuckshop.subgroup",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
